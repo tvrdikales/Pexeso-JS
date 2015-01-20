@@ -1,0 +1,16 @@
+/* 
+    Created on : 12.1.2015, 22:52:04
+    Author     : Ales
+*/
+
+.card{background-color: antiquewhite; display: block; width: 100px; height: 100px; margin: 5px; float: left;}
+
+.button{background-color: burlywood; text-align: center; margin: 5px; padding: 10px;}
+.button:hover{background-color: antiquewhite;}
+.label{font-size: 20px; margin: 20px; float:left;}
+.value{font-size: 20px; margin: 20px; float:right;}
+
+body{background-color: gainsboro; min-width: 800px}
+
+#settings{background-color: beige; display: block; min-width: 250px; max-width: 300px; height: 500px; margin: 3px; float: left;}
+//#table{background-color: beige; display: block;width: auto; min-width: 400px;height: 500px; margin: 3px; float: left; border-color: burlywood}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pexeso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script type="text/javascript" src="./script.js"></script>
+    </head>
+    <body onLoad="onLoadInit()">
+        <div id="settings">            
+            <div id="newGameBtn" class="button" onclick="newGame()">Nová hra</div>
+            <div>
+                <div class="label">Úroveň : </div>
+                <div id="levelValue" class="value">0</div>
+
+            </div>
+            <div>
+                <div class="label">Skóre : </div>
+                <div id="scoreValue" class="value">0</div>
+            </div>
+                        <div>
+                <div class="label">Zbývájící čas : </div>
+                <div id="timeValue" class="value">0</div>
+            </div>
+        </div>
+        <div id="table"></div>        
+    </body>
+</html>
